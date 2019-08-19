@@ -92,6 +92,11 @@ let carModelsSorted = [];
 // carModels = inventory.map((car) => car.car_model);
 // carModelsSorted = carModels.sort();
 // console.log(carModelsSorted);
+for (let i = 0; i < inventory.length; i++) {
+carModels.push(inventory[i].car_model);
+carModelsSorted = carModels.sort();
+}
+console.log(carModelsSorted);
 
 // ==== Challenge 4 ====
 // The accounting team needs all the years from every car on the lot. Create a new array from the dealer data 
