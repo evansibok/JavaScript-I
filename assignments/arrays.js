@@ -116,6 +116,12 @@ console.log(carYears);
 let oldCars = [];
 // oldCars = carYears.filter((car_year) => car_year < 2000);
 // console.log(oldCars.length);
+for (let i = 0; i < inventory.length; i++) {
+  if (carYears[i] < 2000) {
+    oldCars.push(carYears);
+  }
+}
+console.log(oldCars.length);
 
 
 // ==== Challenge 6 ====
