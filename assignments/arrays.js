@@ -109,6 +109,9 @@ for (let i = 0; i < inventory.length; i++) {
 }
 console.log(carYears);
 
+// Challenge 4 Stretch
+carYears = inventory.map((car) => car.car_year);
+console.log(carYears);
 
 // ==== Challenge 5 ====
 // The car lot manager needs to find out how many cars are older than the year 2000. Using the carYears array 
@@ -135,10 +138,3 @@ for (let i = 0; i < inventory.length; i++) {
   }
 }
 console.log(JSON.stringify(BMWAndAudi));
-
-
-
-
-// Challenge 4
-carYears = inventory.map((car) => car.car_year);
-console.log(carYears);
