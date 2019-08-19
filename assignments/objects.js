@@ -20,9 +20,9 @@ const example = {
 // Write your intern objects here:
 const mitzi = { id: 'mmelloy0', email: 'mmelloy0@psu.edu', first_name: 'Mitzi', gender: 'F', }
 const kennan = { id: 'kdiben1', email: 'kdiben1@tinypic.com', first_name: 'Kennan', gender: 'M', }
-const Keven = { id: 'kmummery2', email: 'kmummery2@wikimedia.org,', first_name: 'Keven', gender: 'M', }
-const Gannie = { id: 'gmartinson3', email: 'gmartinson3@illinois.edu', first_name: 'Gannie', gender: 'M', }
-const Antonietta = { id: 'adaine5', email: 'adaine5@samsung.com', first_name: 'Antonietta', gender: 'F', }
+const keven = { id: 'kmummery2', email: 'kmummery2@wikimedia.org', first_name: 'Keven', gender: 'M', }
+const gannie = { id: 'gmartinson3', email: 'gmartinson3@illinois.edu', first_name: 'Gannie', gender: 'M', }
+const antonietta = { id: 'adaine5', email: 'adaine5@samsung.com', first_name: 'Antonietta', gender: 'F', }
 
 
 
@@ -30,10 +30,13 @@ const Antonietta = { id: 'adaine5', email: 'adaine5@samsung.com', first_name: 'A
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
+console.log(mitzi.first_name);
 
 // Kennan's ID
+console.log(kennan.id);
 
 // Keven's email
+console.log(keven.email);
 
 // Gannie's name
 
