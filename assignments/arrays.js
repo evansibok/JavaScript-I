@@ -89,21 +89,21 @@ console.log(`The last car in the inventory is of make '${lastCar.car_make}' and 
 // alphabetical order and log the results in the console
 let carModels = [];
 let carModelsSorted = [];
-// carModels = inventory.map((car) => car.car_model);
-// carModelsSorted = carModels.sort();
-// console.log(carModelsSorted);
 for (let i = 0; i < inventory.length; i++) {
-carModels.push(inventory[i].car_model);
-carModelsSorted = carModels.sort();
+  carModels.push(inventory[i].car_model);
+  carModelsSorted = carModels.sort();
 }
+console.log(carModelsSorted);
+
+// Challenge 3 Stretch
+carModels = inventory.map((car) => car.car_model);
+carModelsSorted = carModels.sort();
 console.log(carModelsSorted);
 
 // ==== Challenge 4 ====
 // The accounting team needs all the years from every car on the lot. Create a new array from the dealer data 
 // containing only the car years and log the result in the console.
 let carYears = [];
-// carYears = inventory.map((car) => car.car_year);
-// console.log(carYears);
 for (let i = 0; i < inventory.length; i++) {
   carYears.push(inventory[i].car_year);
 }
@@ -135,3 +135,10 @@ for (let i = 0; i < inventory.length; i++) {
   }
 }
 console.log(JSON.stringify(BMWAndAudi));
+
+
+
+
+// Challenge 4
+carYears = inventory.map((car) => car.car_year);
+console.log(carYears);
