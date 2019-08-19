@@ -95,3 +95,5 @@ parent.child.speak = () => `My name is ${parent.child.name} and I am speaking`;
 console.log(parent.child.speak());
 
 // Have the grandchild speak
+parent.child.grandchild.speak = () => `My name is ${parent.child.grandchild.name} and I am speaking`;
+console.log(parent.child.grandchild.speak());
